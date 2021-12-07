@@ -1,19 +1,15 @@
-<script lang="ts" setup>
-
-
-</script>
+<script lang="ts" setup></script>
 
 <template>
     <div class="about">
         <p>This is about Yilu Studio template</p>
         <div class="logo">
-            <img src="@/assets/yilu.jpg" alt="yilu">
+            <img src="@/assets/yilu.jpg" alt="yilu" />
         </div>
     </div>
 </template>
 
 <style scoped>
-
 .about {
     margin: 0 auto;
     display: flex;
