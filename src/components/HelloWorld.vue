@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useStore } from '@/store/counter'
 
-defineProps<{ msg: string }>()
+defineProps<{ msg?: string }>()
 
 const store = useStore();
 
@@ -11,6 +11,7 @@ const count = ref(0)
 </script>
 
 <template>
+  <img src="@/assets/logo.png" style="margin: 0 auto;" alt="vue"/>
   <h1>{{ msg }}</h1>
 
   <p>
