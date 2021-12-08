@@ -12,3 +12,35 @@ This template includes the necessary tools when you use vue3 to develop.
 * [eslint](https://eslint.bootcss.com/)
 * [tailwindcss](https://www.tailwindcss.cn/) - v2.2
 * [pinia](https://pinia.esm.dev/) - v2
+
+## Directory tree
+```
+├── LICENSE
+├── README.md
+├── index.html
+├── package.json
+├── postcss.config.js
+├── public
+│   └── favicon.ico
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   ├── logo.png
+│   │   └── yilu.jpg
+│   ├── components
+│   │   ├── About.vue
+│   │   └── HelloWorld.vue
+│   ├── env.d.ts
+│   ├── global.css
+│   ├── main.ts
+│   ├── router
+│   │   └── index.ts
+│   └── store
+│       ├── counter.ts
+│       └── index.ts
+├── tailwind.config.js
+├── tsconfig.json
+├── vite.config.ts
+└── yarn.lock
+
+```
